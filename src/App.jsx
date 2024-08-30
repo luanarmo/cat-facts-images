@@ -18,7 +18,7 @@ function App() {
             >
                 Get new fact
             </button>
-            {fact && <h3 className="mb-4 text-lg">{fact}</h3>}
+            {fact && <h3 className="mb-4 text-lg" data-testid="fact">{fact}</h3>}
             {imageUrl && (
                 <img
                     src={imageUrl}
